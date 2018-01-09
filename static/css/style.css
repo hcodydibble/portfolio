@@ -1,0 +1,45 @@
+html, body{
+    height: 100vh;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    font-size: 2em;
+    margin: 5%
+}
+
+h1{
+    font-size: 5em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+footer{
+    background-color: lightgrey;
+}
+footer div{
+    text-align: center;
+}
+
+.navbar{
+    background-color: lightgrey;
+    padding: 1%;
+    text-align: center;
+}
+
+.me-stuff{
+    text-align: center;
+    padding: 15%;
+    flex: 1 0 auto;
+}
+
+.footer-image{
+    width: 3.5%;
+}
