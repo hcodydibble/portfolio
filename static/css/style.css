@@ -5,41 +5,97 @@ html, body{
 body{
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    background-color: lightgrey;
 }
 
 a{
     text-decoration: none;
     font-size: 2em;
-    margin: 5%
+    color: black;
+    cursor: pointer;
+    margin: 1%
 }
 
 h1{
     font-size: 5em;
 }
 
+h2{
+    font-size: 3.5em;
+}
+
 h3{
     font-size: 2em;
 }
 
-footer{
-    background-color: lightgrey;
+hr{
+    border-color: black;
 }
+
+footer{
+    background-color: slategrey;
+}
+
 footer div{
     text-align: center;
 }
 
-.navbar{
-    background-color: lightgrey;
-    padding: 1%;
+.contact-info{
+    flex: 1 0 auto;
     text-align: center;
+    padding: 18%;
 }
 
-.me-stuff{
-    text-align: center;
-    padding: 15%;
-    flex: 1 0 auto;
+.contact-info a{
+    font-size: 1.3em;
+}
+
+.contact-info p{
+    font-size: 1.7em;
+    margin-bottom: 1%;
+}
+
+.fa{
+    border-radius: 25%;
+    padding: 1%;
+    margin: 0.5%;
+}
+
+.fa-linkedin {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-github {
+    background: black;
+    color: white;
 }
 
 .footer-image{
     width: 3.5%;
+}
+
+.me-stuff{
+    flex: 1 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 18%;
+    text-align: center;
+    width: 50%;
+}
+
+.me-stuff h3, .me-stuff p{
+    background-color: lightgrey;
+    padding-left: 2%;
+}
+
+.me-stuff p{
+    font-size:;
+}
+
+.navbar{
+    background-color: slategrey;
+    padding: 1%;
+    text-align: right;
 }

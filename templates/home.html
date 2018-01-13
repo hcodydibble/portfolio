@@ -1,32 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/reset.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
-    <title>Cody's Portfolio</title>
-</head>
-<body>
-    <nav>
-        <div class='navbar'>
-            {% if request.path == '/' %}
-            <a href="#">About</a>
-            {% else %}
-            <a href="/">Home</a>
-            {% endif %}
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
-        </div>
-    </nav>
+{% extends 'base.html' %}
 
-    <div class='me-stuff'>
-        <h1>Cody Dibble</h1>
-        <h3>Full stack Developer | Pythonista | Gaming enthusiasist</h3>
-    </div>
-
-    <footer>
-        <div>
-            <img src="{{ url_for('static', filename='img/c_mon2.png') }}" class='footer-image'>
-        </div>
-    </footer>
-</body>
-</html>
+{%block content %}
+<div class='me-stuff'>
+    <h3>Hi, I'm Cody. I am a <strong>full stack developer</strong> currently residing in Seattle, WA.</h3>
+</div>
+{% endblock %}
