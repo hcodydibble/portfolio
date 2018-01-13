@@ -5,13 +5,14 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="icon" href="{{ url_for('static', filename='img/c_mon9.png') }}">
     <title>Cody's Portfolio</title>
 </head>
 <body>
     <div class='navbar'>
         <nav>
             {% if request.path == '/' %}
-                <a href="{{ url_for('about_view') }}">About</a>
+                <a href="{{ url_for('about_view') }}">About Me</a>
                 <a href="{{ url_for('projects_view') }}">Projects</a>
                 <a href="{{ url_for('contact_view') }}">Contact</a>
             {% elif request.path == '/about' %}
@@ -20,11 +21,11 @@
                 <a href="{{ url_for('contact_view') }}">Contact</a>
             {% elif request.path == '/projects' %}
                 <a href="{{ url_for('home_view') }}">Home</a>
-                <a href="{{ url_for('about_view') }}">About</a>
+                <a href="{{ url_for('about_view') }}">About Me</a>
                 <a href="{{ url_for('contact_view') }}">Contact</a>
             {% elif request.path == '/contact' %}
                 <a href="{{ url_for('home_view') }}">Home</a>
-                <a href="{{ url_for('about_view') }}">About</a>
+                <a href="{{ url_for('about_view') }}">About Me</a>
                 <a href="{{ url_for('projects_view') }}">Projects</a>
             {% endif %}
         </nav>
