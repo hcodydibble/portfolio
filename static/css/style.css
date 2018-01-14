@@ -5,14 +5,13 @@ html, body{
 body{
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto', sans-serif;
-    background-color: lightgrey;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 a{
     text-decoration: none;
-    font-size: 2em;
-    color: #C5E9F5;
+    font-size: 1.2em;
+    color: white;
     cursor: pointer;
     margin: 1%;
 }
@@ -34,14 +33,14 @@ hr{
 }
 
 footer{
-    background-color: #708090;
+    background-color: #61c163;
 }
 
 footer div{
     text-align: center;
 }
 
-.about-me{
+.middle{
     flex: 1 0 auto;
     text-align: center;
     padding: 18%;
@@ -49,12 +48,6 @@ footer div{
 
 .about-me p{
     text-align: center;
-}
-
-.contact-info{
-    flex: 1 0 auto;
-    text-align: center;
-    padding: 18%;
 }
 
 .contact-info a{
@@ -87,26 +80,31 @@ footer div{
     width: 3.5%;
 }
 
-.intro{
-    flex: 1 0 auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 18%;
-    text-align: center;
-    width: 50%;
-}
-
 .intro h3, .intro p{
-    background-color: lightgrey;
     padding-left: 2%;
 }
 
 .navbar{
-    background-color: #708090;
+    background-color: #61c163;
     padding: 1%;
     text-align: right;
 }
 
 .social-media a{
     color: white;
+}
+
+.project-detail{
+    width: 40%;
+    display: inline-block;
+    background-color: #61c163;
+    border-radius: 5%;
+    margin: 4%;
+    text-align: center;
+    display: inline-flex;
+}
+
+.project-info{
+    padding: 5% 5% 0 5%;
+    flex: 1;
 }

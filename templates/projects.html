@@ -1,5 +1,55 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h1>Holder</h1>
+    <div class='projects'>
+
+        <div class='project-detail'>
+            <div class='project-info'>
+                <a href="ec2-34-215-7-234.us-west-2.compute.amazonaws.com">Cryptomonsters</a>
+                <p>December 2017</p>
+                <img src="{{ url_for('static', filename='img/cryptocards.png') }}">
+                <p id='description'>Have you ever wanted to own your own monster horde? Well look no further! Cryptomonsters is a card collecting app that uses blockchain technology to let users 'mine' for monsters with unique attributes.</p>
+                <p>Stack</p>
+                <hr>
+                <p>Python <i class="fa fa-plus-circle" aria-hidden="true"></i> Django <i class="fa fa-plus-circle" aria-hidden="true"></i> Bootstrap</p>
+            </div>
+        </div>
+
+        <div class='project-detail'>
+            <div class='project-info'>
+                <a href="http://close-encounters.herokuapp.com/">Space Rocks</a>
+                <p>November 2017</p>
+                <img src="{{ url_for('static', filename='img/spacerocks.png') }}">
+                <p id='description'>Space Rocks is a data visualization site for the NASA N.E.O (Near Earth Objects) API in an attempt to make information, like what's floating above us, easily accessible and fun to look at.</p>
+                <p>Stack</p>
+                <hr>
+                <p>Python <i class="fa fa-plus-circle" aria-hidden="true"></i> Pyramid <i class="fa fa-plus-circle" aria-hidden="true"></i> Bokeh <i class="fa fa-plus-circle" aria-hidden="true"></i> PostgreSQL <i class="fa fa-plus-circle" aria-hidden="true"></i> HTML5 <i class="fa fa-plus-circle" aria-hidden="true"></i> CSS</p>
+            </div>
+        </div>
+
+        <div class='project-detail'>
+            <div class='project-info'>
+                <a href="http://report-my-wreck.herokuapp.com/">Report My Wreck</a>
+                <p>October 2017</p>
+                <img src="{{ url_for('static', filename='img/collisionreport.png') }}">
+                <p id='description'>A website for anyone who has ever been in an accident and was later asked for pictures of a drawing of the accident. Easily recreate the accident and send an email off to your insurance rep.</p>
+                <p>Stack</p>
+                <hr>
+                <p>JavaScript <i class="fa fa-plus-circle" aria-hidden="true"></i> jQuery <i class="fa fa-plus-circle" aria-hidden="true"></i> Express <i class="fa fa-plus-circle" aria-hidden="true"></i> Node.js <i class="fa fa-plus-circle" aria-hidden="true"></i> HTML5 <i class="fa fa-plus-circle" aria-hidden="true"></i> CSS</p>
+            </div>
+        </div>
+
+        <div class='project-detail'>
+            <div class='project-info'>
+                <p>Tiny Adventures</p>
+                <p>January 2018</p>
+                <img src="{{ url_for('static', filename='img/tinyadventures.png') }}">
+                <p id='description'>This is a WIP project that is my attempt to recreate the 2008 Facebook game of the same name so that I may re-live the glory days.</p>
+                <p>Stack</p>
+                <hr>
+                <p>Python <i class="fa fa-plus-circle" aria-hidden="true"></i> Flask</p>
+            </div>
+        </div>
+
+    </div>
 {% endblock %}
