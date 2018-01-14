@@ -108,3 +108,13 @@ footer div{
     padding: 5% 5% 0 5%;
     flex: 1;
 }
+
+.project-info hr{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-info p{
+    margin: 1.5% 0 1.5% 0;
+}
