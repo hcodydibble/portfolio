@@ -12,9 +12,9 @@ body{
 a{
     text-decoration: none;
     font-size: 2em;
-    color: black;
+    color: #C5E9F5;
     cursor: pointer;
-    margin: 1%
+    margin: 1%;
 }
 
 h1{
@@ -34,10 +34,20 @@ hr{
 }
 
 footer{
-    background-color: slategrey;
+    background-color: #708090;
 }
 
 footer div{
+    text-align: center;
+}
+
+.about-me{
+    flex: 1 0 auto;
+    text-align: center;
+    padding: 18%;
+}
+
+.about-me p{
     text-align: center;
 }
 
@@ -49,6 +59,7 @@ footer div{
 
 .contact-info a{
     font-size: 1.3em;
+    color: black;
 }
 
 .contact-info p{
@@ -90,12 +101,12 @@ footer div{
     padding-left: 2%;
 }
 
-.intro p{
-    font-size:;
-}
-
 .navbar{
-    background-color: slategrey;
+    background-color: #708090;
     padding: 1%;
     text-align: right;
+}
+
+.social-media a{
+    color: white;
 }
