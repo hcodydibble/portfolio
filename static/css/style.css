@@ -1,0 +1,120 @@
+html, body{
+    height: 100vh;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+    margin: 1%;
+}
+
+h1{
+    font-size: 5em;
+}
+
+h2{
+    font-size: 3.5em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+hr{
+    border-color: black;
+}
+
+footer{
+    background-color: #61c163;
+}
+
+footer div{
+    text-align: center;
+}
+
+.middle{
+    flex: 1 0 auto;
+    text-align: center;
+    padding: 18%;
+}
+
+.about-me p{
+    text-align: center;
+}
+
+.contact-info a{
+    font-size: 1.3em;
+    color: black;
+}
+
+.contact-info p{
+    font-size: 1.7em;
+    margin-bottom: 1%;
+}
+
+.fa{
+    border-radius: 25%;
+    padding: 1%;
+    margin: 0.5%;
+}
+
+.fa-linkedin {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-github {
+    background: black;
+    color: white;
+}
+
+.footer-image{
+    width: 3.5%;
+}
+
+.intro h3, .intro p{
+    padding-left: 2%;
+}
+
+.navbar{
+    background-color: #61c163;
+    padding: 1%;
+    text-align: right;
+}
+
+.social-media a{
+    color: white;
+}
+
+.project-detail{
+    width: 40%;
+    display: inline-block;
+    background-color: #61c163;
+    border-radius: 5%;
+    margin: 4%;
+    text-align: center;
+    display: inline-flex;
+}
+
+.project-info{
+    padding: 5% 5% 0 5%;
+    flex: 1;
+}
+
+.project-info hr{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-info p{
+    margin: 1.5% 0 1.5% 0;
+}

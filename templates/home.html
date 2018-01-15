@@ -1,20 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Cody's Portfolio</title>
-</head>
-<body>
-    <nav>
-        <div>
-            <a href="/">Home</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
-        </div>
-    </nav>
+{% extends 'base.html' %}
 
-    <div>
-        <h1>Cody's Portfolio</h1>
-        <p>Welcome to it</p>
-    </div>
-</body>
-</html>
+{%block content %}
+<div class='intro middle'>
+    <h2>Hi, I'm Cody</h2>
+    <h3>I am a <span class='word'>Developer</span>.</h3>
+</div>
+{% endblock %}
