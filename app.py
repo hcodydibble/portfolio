@@ -1,4 +1,4 @@
-from flask import Flask, render_template, url_for, request, send_from_directory
+from flask import Flask, render_template, send_from_directory
 import os
 app = Flask(__name__)
 
@@ -23,7 +23,7 @@ def contact_view():
     return render_template('contact.html')
 
 
-@app.route('/resume')
+@app.route('/codydibble')
 def download_resume():
     directory = os.path.join(app.static_folder, 'files/')
     return send_from_directory(directory=directory, filename='codydibble.docx')
