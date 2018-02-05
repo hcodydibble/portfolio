@@ -40,12 +40,6 @@ footer div{
     text-align: center;
 }
 
-.middle{
-    flex: 1 0 auto;
-    text-align: center;
-    padding: 18%;
-}
-
 .about-me p{
     text-align: center;
 }
@@ -84,24 +78,24 @@ footer div{
     padding-left: 2%;
 }
 
+.middle{
+    flex: 1 0 auto;
+    text-align: center;
+    padding: 18%;
+}
+
 .navbar{
     background-color: #61c163;
     padding: 1%;
     text-align: right;
 }
 
-.social-media a{
-    color: white;
-}
-
 .project-detail{
-    width: 40%;
-    display: inline-block;
+    width: 50%;
     background-color: #61c163;
     border-radius: 5%;
-    margin: 4%;
+    margin: 3% 25% 3% 25%;
     text-align: center;
-    display: inline-flex;
 }
 
 .project-info{
@@ -117,4 +111,18 @@ footer div{
 
 .project-info p{
     margin: 1.5% 0 1.5% 0;
+}
+
+.projects hr{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects{
+    text-align: center;
+}
+
+.social-media a{
+    color: white;
 }
