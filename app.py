@@ -23,7 +23,7 @@ def contact_view():
     return render_template('contact.html')
 
 
-@app.route('/codydibble')
+@app.route('/breakthebricks')
 def download_resume():
     directory = os.path.join(app.static_folder, 'files/')
-    return send_from_directory(directory=directory, filename='codydibble.docx')
+    return send_from_directory(directory=directory, filename='BtBsetup.exe')
