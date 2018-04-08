@@ -22,6 +22,10 @@ def projects_view():
 def contact_view():
     return render_template('contact.html')
 
+@app.route('/knightdefense')
+def game_view():
+    return render_template('game.html')
+
 
 @app.route('/codydibble')
 def download_resume():
