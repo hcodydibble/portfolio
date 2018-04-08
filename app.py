@@ -22,9 +22,12 @@ def projects_view():
 def contact_view():
     return render_template('contact.html')
 
+@app.route('/knightdefense')
+def game_view():
+    return render_template('game.html')
+
 
 @app.route('/codydibble')
 def download_resume():
     directory = os.path.join(app.static_folder, 'files/')
     return send_from_directory(directory=directory, filename='codydibble.docx')
-
