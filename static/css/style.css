@@ -42,6 +42,7 @@ footer div{
 
 .about-me p{
     text-align: center;
+    font-size: 1.3em;
 }
 
 .contact-info a{
@@ -52,6 +53,10 @@ footer div{
 .contact-info p{
     font-size: 1.7em;
     margin-bottom: 1%;
+}
+
+.center-me{
+    text-align: center;
 }
 
 .fa{
@@ -101,6 +106,14 @@ footer div{
 .project-info{
     padding: 5% 5% 0 5%;
     flex: 1;
+}
+
+.project-info a{
+    font-size: 3.5em;
+}
+
+.project-info a:hover{
+    color: black;
 }
 
 .project-info hr{
